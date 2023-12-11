@@ -1,0 +1,11 @@
+body {
+    background-color: #FFF73C;
+}
+
+body::before {
+    content: "";
+    display: block;
+    margin-top: 100px;
+    height: 5px;
+    background-color: black; /* Change this to the color you want for the line */
+}
